@@ -68,17 +68,17 @@ Tune img_scale with bigger value (1.0 means original image size) would yeild bet
 # Steps to run this code:
 
 
-1- after extracting the zip file: download the model and the rosbag as descrived above and but them in data folder.
-2- cd /path/to/aanet_stereo_matching
-3- cd docker
-4- ./docker_build.sh
-5- After building docker "successfully!" :  ./docker_start.sh
-6- ./docker_into.sh
-7- inside docker : cd src/aanet_ros_node/
-8- cd ./scripts/aanet/nets/deform_conv && sudo bash build.sh               (PASSWORD IS "user")
-9- cd .. (go back to catkin_ws)
-10- catkin_make (if it doesn't work run : source /opt/ros/noetic/setup.bash)
-11- source devel/setup.bash
-12- roslaunch aanet_stereo_matching_ros aanet_stereo_matching_ros_rviz_sample.launch
-13- open a new terminal and run : rviz 
-14- In rviz open file->open config and navigate to this repo -> rviz and choose sample.rviz 
+- after extracting the zip file: download the model and the rosbag as descrived above and but them in data folder.
+- cd /path/to/aanet_stereo_matching
+- cd docker
+- ./docker_build.sh
+- After building docker "successfully!" :  ./docker_start.sh
+- ./docker_into.sh
+- inside docker : cd src/aanet_ros_node/
+- cd ./scripts/aanet/nets/deform_conv && sudo bash build.sh               (PASSWORD IS "user")
+- cd .. (go back to catkin_ws)
+- catkin_make (if it doesn't work run : source /opt/ros/noetic/setup.bash)
+- source devel/setup.bash
+- roslaunch aanet_stereo_matching_ros aanet_stereo_matching_ros_rviz_sample.launch
+- open a new terminal and run : rviz 
+- In rviz open file->open config and navigate to this repo -> rviz and choose sample.rviz 
