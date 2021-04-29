@@ -1,0 +1,3 @@
+# ninja log v5
+1	8373	1619722674043999150	/home/docker_aanet/catkin_ws/src/aanet_ros_node/scripts/aanet/nets/deform_conv/build/temp.linux-x86_64-3.8/src/deform_conv_cuda_kernel.o	2bfdcbdf84b61077
+0	17421	1619722683083974909	/home/docker_aanet/catkin_ws/src/aanet_ros_node/scripts/aanet/nets/deform_conv/build/temp.linux-x86_64-3.8/src/deform_conv_cuda.o	428da7f92c2f0b2b
